@@ -1,0 +1,91 @@
+/* Main menu */
+#menu
+{
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 0 0;
+	margin-top:-40px;
+	height:30px;
+        list-style: none;
+        //background: green;        
+}
+
+#menu li
+{
+	margin-top:-10px;
+        float:left;
+        padding: 0 0 0 0;
+        position: relative;
+	width:auto;
+	height:40px;
+	background-color:none;
+	
+}
+#menu a
+{
+        float: left;
+        height: 40px;
+        padding: 5 25px;
+        color: white;
+        text-transform: uppercase;
+        font: bold 14px/25px Arial, Helvetica;
+        text-decoration: none;
+	background-color:none;
+}
+#menu li:hover
+{
+        background: -moz-linear-gradient(skyblue, teal);
+        background: -webkit-linear-gradient(skyblue,teal);
+}
+#menu li:hover > ul
+{
+        display: block;
+	text-decoration:none;
+	background: -webkit-linear-gradient(skyblue,teal);
+	background: -moz-linear-gradient(skyblue,teal);
+}
+
+/* Sub-menu */
+
+#menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index:999999;
+    background:green;
+}
+#menu ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    //-moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+#menu ul a
+{
+    padding: 14px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+#menu ul a:hover
+{
+        background: -moz-linear-gradient(#f8f8f8, skbllue );
+	background: -webkit-linear-gradient(#f8f8f8,skyblue);
+}
+
+#active_bar
+{
+        background: -moz-linear-gradient(orange,black);
+	background: -webkit-linear-gradient(orange,black);        
+	width:auto;
+}
