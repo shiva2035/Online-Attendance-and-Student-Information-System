@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `fac_users` (
 --
 
 INSERT INTO `fac_users` (`uname`, `pass1`, `first`, `last`, `dob`, `doj`, `exp`, `blood`, `email`, `mobile`, `emergency_mob`, `present_addr`, `permanent_addr`, `class`, `remarks`) VALUES
-('fac_01', 'fac_01', 'Shiva Kumar', 'K', '1993-01-29', '2008-08-25', '3 Yrs- 5 Months', 'B+', 'shiva2035.iiit@gmail.com', '9963808956', '9963808956', 'nagaram, jajireddy gudem, nalgonda', 'rgukt-basar,mudhole, adilabad', 'SEA', 'Student at RGUKT-Basar'),
+('fac_01', 'fac_01', 'Shiva Kumar', 'K', '1993-01-29', '2008-08-25', '3 Yrs- 5 Months', 'B+', 'shiva2035.iiit@gmail.com', '9963808987667', '996380898798', 'nagaram, jajireddy gudem, nalgonda', 'rgukt-basar,mudhole, adilabad', 'SEA', 'Student at RGUKT-Basar'),
 ('fac_02', 'fac_02', 'Shiva Kumar', 'Kanneboina', '1993-01-28', '2008-08-24', '4 Yrs- 5 Months', 'B+', 'shiva2035.iiit@gmail.com', '9963808957', '9963808957', 'nagaram, jajireddy gudem, nalgonda', 'rgukt-basar,mudhole, adilabad', 'SEA', 'Student at RGUKT-Basar'),
 ('fac_03', 'fac_03', 'Shiva Kumar', 'K', '1993-01-27', '2008-08-23', '5 Yrs- 5 Months', 'B+', 'shiva2035.iiit@gmail.com', '9963808958', '9963808958', 'nagaram, jajireddy gudem, nalgonda', 'rgukt-basar,mudhole, adilabad', 'SEA', 'Student at RGUKT-Basar'),
 ('fac_04', 'fac_04', 'Shiva Kumar', 'K', '1993-01-26', '2008-08-22', '6 Yrs- 5 Months', 'B+', 'shiva2035.iiit@gmail.com', '9963808959', '9963808959', 'nagaram, jajireddy gudem, nalgonda', 'rgukt-basar,mudhole, adilabad', 'SEA', 'Student at RGUKT-Basar'),
